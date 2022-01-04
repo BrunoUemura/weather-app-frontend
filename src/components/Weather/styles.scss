@@ -1,21 +1,49 @@
 .WeatherContainer {
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
+
+  margin-top: 150px;
+  min-width: 50%;
+  height: 50%;
+  background-color: #fff;
 
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  border-radius: 25px;
+}
+
+.WeatherLeftInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+
+  width: 50%;
+}
+
+.WeatherRightInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+
+  width: 50%;
+
+  .WeatherRegionInfo {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .WeatherBackground {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 
   position: fixed;
   z-index: -1;
 }
 
 h1 {
-  color: white;
+  color: rgb(0, 0, 0);
 }

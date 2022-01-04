@@ -1,7 +1,7 @@
-import MorningCloudy from "../assets/morning-cloudy.jpg";
-import MorningRainy from "../assets/morning-rainy.jpg";
-import MorningSunny from "../assets/morning-sunny.jpg";
-import NightClear from "../assets/night-clear.jpg";
+import MorningCloudy from "../assets/morning/morning-cloudy.jpg";
+import MorningRainy from "../assets/morning/morning-rainy.jpg";
+import MorningSunny from "../assets/morning/morning-sunny.jpg";
+import NightClear from "../assets/night/night-clear.jpg";
 
 export function defineBackgroundImage(localTime: string, condition: string) {
   const currentTime = localTime.split(" ");

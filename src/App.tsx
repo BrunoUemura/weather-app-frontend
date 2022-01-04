@@ -1,6 +1,6 @@
 import { useState } from "react";
-
 import "./styles/App.scss";
+
 import { CityContext } from "./contexts/CityContext";
 import Navbar from "./components/Navbar";
 import Weather from "./components/Weather";
@@ -19,14 +19,14 @@ export default function App() {
 
   return (
     <div className="App">
-      <img
+      {/* <img
         className="AppImage"
         src={backgroundImage}
         alt="Weather Background"
-      />
+      /> */}
       <CityContext.Provider value={{ city, setCity, weather, setWeather }}>
         <Navbar />
-        <Weather />
+        <Weather {...weather}/>
       </CityContext.Provider>
     </div>
   );

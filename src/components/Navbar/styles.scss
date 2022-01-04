@@ -1,11 +1,41 @@
 .NavbarContainer {
   width: 100%;
-  background-color: aqua;
+  min-height: 5%;
+  background-color: #dde4e6;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: fixed;
 }
 
 .NavbarInput {
+  min-height: 30px;
+  min-width: 20%;
+
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  padding-left: 10px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+.NavbarButton {
+  min-height: 30px;
+  min-width: 10%;
+
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 5px;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  background-color: #8bc5e7;
 }
